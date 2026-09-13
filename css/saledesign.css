@@ -1,0 +1,231 @@
+/* navigation tab */
+nav {
+    padding: 50px;
+    height: 76vh;
+    width: 300px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(26, 25, 25, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 67px;
+    /* border-radius: 20px */
+  }
+  
+  .main-nav {
+    flex-grow: 1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logout-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: auto;
+    /*margin-bottom: 200px;*/ /*moves closer towards other the tabs*/
+  }
+  
+  nav ul li {
+    margin-bottom: 20px;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #48D1CC;
+    color: black;
+  }
+  
+  /* image logo */
+  .logo {
+    height: 24px; /* Adjust the height to match the font size */
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  /* content */
+  .content {
+    margin-left: 350px;
+    padding: 50px;
+    margin-top: 87px; /* Align content with the top of the nav */
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(26, 25, 25, 0.8);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .welcome-message {
+    font-size: 18px;
+    margin-right: 50px;
+  }
+  
+  .pfp{
+    height: 18px; /* goes to the normal size*/
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+  
+  /* table */
+  .table-data {
+    padding: 20px;
+  }
+  
+  .table-data .order {
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .table-data .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .table-data .head h3 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .table-data .order table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-data .order table th,
+  .table-data .order table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-data .order table tr td:first-child {
+    display: flex;
+    align-items: center;
+  }
+  
+  .table-data .order table tr td img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .table-data .order table tbody tr:hover {
+    background: #f1f1f1;
+  }
+  
+  .table-data .order table tr td .status {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #fff;
+  }
+  
+  /* table status color */
+  .table-data .order table tr td .status.high {
+    background-color: #4caf50;
+  }
+  
+  .table-data .order table tr td .status.average {
+    background-color: #ff9800;
+  }
+  
+  .table-data .order table tr td .status.low {
+    background-color: rgb(246, 57, 57);
+  }
+  
+  /* search, button containers */
+  .search-box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box input[type="text"] {
+    width: 400px; 
+    height: auto; 
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-box button {
+    width: 150px;
+    height: 38px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: left;
+    padding-left: 15px; /*text goes tidbit to the right*/
+  }
+
+  
+  
+  .search-box button:hover {
+    background-color: #2980b9;
+  }
+  
+  .left-corner .add-item-button {
+    padding: 10px 20px;
+    margin-right: 4px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .left-corner .edit-button {
+    padding: 10px 40px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
